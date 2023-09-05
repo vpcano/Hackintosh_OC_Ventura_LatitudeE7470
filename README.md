@@ -2,6 +2,10 @@
 - Mac OS Ventura 13
 - Opencore 0.9.4
 
+<p align="center">
+  <img src="https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/ea28f1a1-67cb-4d2d-9ad7-6b5d2cb26c63" width=700>
+</p>
+
 ## Features
 * [x] Everything seems to work fine (display, graphics acceleration, sleep and wake, speakers, keyboard and trackpad...)
 * [x] USB mapping done (including dock station USB ports)
@@ -13,12 +17,31 @@
 - BCM94352
 - BCM94350
 
+<img src="https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/eafc4eef-acaa-496d-bcb9-8d7a1e329cca" width=600>
+
 See [Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/) for more info.
 
 *TODO*: in that case, config.plist should be edited in order to enable required kexts
 
 ## Installation
-
+1. Clone this repository and take the *EFI* folder
+2. Format an USB flash drive using FAT32 format, download a copy of a mac OS Ventura recovery following [this tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/), and place it on the root of the flash drive
+3. Place the EFI folder on the root of the flash drive
+4. Enter BIOS settings (pressing F2 key) and do the following tweaks:
+   - Disable Fastboot
+   - Disable Secureboot
+   - Disable Serial Port
+   - Disable Parallel Port
+   - SATA Mode: AHCI
+   - Disable TPM?
+   - Put your flash drive on the top of the boot sequence
+5. Boot from your flash drive and once the Opencore boot selector appears select the recovery option
+6. Wait until you see Mac OS Ventura recovery
+7. Make sure you have an internet connection. If Wifi is unavailable, just use a wired connection
+8. Enter Disk Utility and format your internal drive using APFS format
+9. Install macOS Ventura. The laptop may reboot several times, don't take out the USB flash drive at any moment.
+10. Once you get your macOS fresh install, you will need to be able to [boot without the USB](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html). Use [MountEFI](https://github.com/corpnewt/MountEFI) or a similar tool to mount your drive's EFI partition, and place the EFI folder from the USB on it.
+11. Shutdown, take out the USB, and enjoy your Hackintosh
 
 ## Based on
 - [Opencore official website](https://dortania.github.io/)
