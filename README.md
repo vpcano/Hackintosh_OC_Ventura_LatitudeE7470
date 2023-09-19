@@ -33,7 +33,6 @@ See [Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/) f
    - Disable Serial Port
    - Disable Parallel Port
    - SATA Mode: AHCI
-   - Disable TPM?
    - Put your flash drive on the top of the boot sequence
 5. Boot from your flash drive and once the Opencore boot selector appears select the recovery option
 6. Wait until you see Mac OS Ventura recovery
