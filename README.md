@@ -2,7 +2,7 @@
 - Mac OS Ventura 13
 - Opencore 0.9.4
 
-![opencore](https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/9d062c19-6aba-49f3-9c42-51e0fe3ed6e5)
+![opencore](https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/4862e008-cbf7-4924-af65-960c18178aa2)
 
 ## Features
 * [x] Everything seems to work fine (display, graphics acceleration, sleep and wake, speakers, keyboard and trackpad...)
