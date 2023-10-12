@@ -2,22 +2,18 @@
 - Mac OS Ventura 13
 - Opencore 0.9.4
 
-<p align="center">
-  <img src="https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/ea28f1a1-67cb-4d2d-9ad7-6b5d2cb26c63" width=700>
-</p>
+![opencore](https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/9d062c19-6aba-49f3-9c42-51e0fe3ed6e5)
 
 ## Features
 * [x] Everything seems to work fine (display, graphics acceleration, sleep and wake, speakers, keyboard and trackpad...)
 * [x] USB mapping done (including dock station USB ports)
 * [x] WIFI + Bluetooth working with default Intel card*
 
-*: In order for continuity functions (such as Airdrop) to work, you will need to replace stock Intel wireless adapter (the one on the image) with a M.2 A+E adapter using one of the following chipsets:
+*: In order for continuity functions (such as Airdrop) to work, you will need to replace stock Intel wireless adapter with a M.2 A+E adapter using one of the following chipsets:
 - BCM943602
 - BCM94360
 - BCM94352
 - BCM94350
-
-<img src="https://github.com/vpcano/Hackintosh_OC_Ventura_LatitudeE7470/assets/15021507/eafc4eef-acaa-496d-bcb9-8d7a1e329cca" width=600>
 
 See [Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/) for more info.
 
